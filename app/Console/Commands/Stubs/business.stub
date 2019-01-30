@@ -1,0 +1,11 @@
+<?php
+
+namespace Birdboard\Models\Business;
+
+class {{class}} extends BaseBusiness
+{
+    public function __construct() {
+        $this->read = new \Birdboard\Models\DataAccess\Read\{{class}};
+        $this->write = new \Birdboard\Models\DataAccess\Write\{{class}};
+    }
+}

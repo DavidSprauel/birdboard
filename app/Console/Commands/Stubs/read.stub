@@ -1,0 +1,8 @@
+<?php
+
+namespace Birdboard\Models\DataAccess\Read;
+
+class {{class}} extends BaseReader
+{
+
+}

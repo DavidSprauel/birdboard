@@ -1,0 +1,10 @@
+<?php
+
+namespace Birdboard\Models\Entities\Eloquent;
+
+class {{class}} extends BaseModel
+{
+     protected $guarded = [];
+
+
+}
